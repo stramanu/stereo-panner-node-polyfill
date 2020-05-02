@@ -6,6 +6,6 @@
         "outDir": "dist/"
     },
     "files": [
-        "src/stereo-panner-node.ts"
+        "src/stereo-panner-node-polyfill.ts"
     ]
 }

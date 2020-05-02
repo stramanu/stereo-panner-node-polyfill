@@ -1,26 +1,26 @@
 {
-  "name": "stereo-panner-node",
+  "name": "stereo-panner-node-polyfill",
   "version": "1.0.0",
   "description": "StereoPannerNode polyfil",
-  "main": "./dist/stereo-panner-node.js",
+  "main": "./dist/stereo-panner-node-polyfill.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stramanu/stereo-panner-node.git"
+    "url": "git+https://github.com/stramanu/stereo-panner-node-polyfill.git"
   },
   "keywords": [
-    "stereo-panner-node",
+    "stereo-panner-node-polyfill",
     "StereoPannerNode",
     "polyfill"
   ],
   "author": "Emanuele Strazzullo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stramanu/stereo-panner-node/issues"
+    "url": "https://github.com/stramanu/stereo-panner-node-polyfill/issues"
   },
-  "homepage": "https://github.com/stramanu/stereo-panner-node#readme",
+  "homepage": "https://github.com/stramanu/stereo-panner-node-polyfill#readme",
   "dependencies": {}
 }

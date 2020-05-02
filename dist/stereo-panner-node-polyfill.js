@@ -80,4 +80,3 @@
         }
     }
 })(window);
-//# sourceMappingURL=stereo-panner-node.js.map
