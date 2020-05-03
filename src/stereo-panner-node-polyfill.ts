@@ -81,13 +81,13 @@
         enumerable: false, writable: false, configurable: true
       });
   
-      (AudioNode.prototype as any)._connect = AudioNode.prototype.connect;
+      var _connect = AudioNode.prototype.connect;
       (AudioNode.prototype as any).connect = function () {
         var args = Array.prototype.slice.call(arguments);
         if (args[0]._isStereoPannerNode)
           args[0] = args[0]._input;
         
-        this._connect.apply(this, args);
+        _connect.apply(this, args);
       };
   
       if (typeof Symbol === "function" && typeof Symbol.hasInstance === "symbol") {
